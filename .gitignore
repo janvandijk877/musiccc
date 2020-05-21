@@ -1,0 +1,10 @@
+#Ignore node_modules directory
+node_modules/
+build/
+
+*.log
+
+#ignore config files ending in json (don't ignore example configs)
+config/*.json
+
+.eslintrc.js
